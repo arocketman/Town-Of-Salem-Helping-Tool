@@ -133,7 +133,7 @@ var vue = new Vue({
   	},
 
   	isChecked : function(elem){
-  		return ! (elem).is('tr');
+      return ! (elem).is(':visible');
   	},
 
   	check : function (elem){
