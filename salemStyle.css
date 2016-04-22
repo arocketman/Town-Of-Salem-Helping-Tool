@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+#app{
+	padding-top:30px;
+}
+
+#roleSelect{
+	margin-bottom:20px;
+}
+
+.townSpan , #Jailor > td{
+	color:#45BF00;
+}
+
+.table td{
+	color:#49A9D0;
+}
+
+#Godfather > td , #Mafioso > td , #RandomMafia > td{
+	color:red;
+}
+
+.neutralSpan {
+	color:gray;
+}
+
+.myTextarea  { 
+	display: block;
+	padding:25px 25px 40px;
+	margin:0 auto 20px auto;
+	width:100%;
+	height:250px;   
+	font: 20px 'Gloria Hallelujah', cursive; 
+	line-height:1.5;
+	border:0;
+	border-radius:3px;
+	background: -webkit-linear-gradient(#F9EFAF, #F7E98D);
+	background: -moz-linear-gradient(#F9EFAF, #F7E98D);
+	background: -o-linear-gradient(#F9EFAF, #F7E98D);
+	background: -ms-linear-gradient(#F9EFAF, #F7E98D);
+	background: linear-gradient(#F9EFAF, #F7E98D);
+	box-shadow:0 4px 6px rgba(0,0,0,0.1);
+	overflow:hidden;
+	transition:box-shadow 0.5s ease;
+	font-smoothing:subpixel-antialiased;
+	max-height:250px;
+}
+
+#suspectsList , #suspectsList2{
+		background: linear-gradient(#5586C3, #95B1FF);
+		font: 12px 'Gloria Hallelujah', cursive; 
+
+}
+
+textarea:hover { box-shadow:0 5px 8px rgba(0,0,0,0.15); }
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    position: relative;
+    padding: 5px 10px;
+}
+
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
+
+tr td p{
+	cursor: not-allowed;
+}
