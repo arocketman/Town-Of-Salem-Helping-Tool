@@ -15,6 +15,7 @@ var vue = new Vue({
       { text: 'Retributionist', value: 'TownSupport' },
       { text: 'Transporter', value: 'TownSupport' },
       { text: 'Bodyguard', value: 'TownProtective' },
+      { text: 'Doctor', value: 'TownProtective' },
       { text: 'Vampire Hunter', value: 'TownKilling' },
       { text: 'Vigilante', value: 'TownKilling' },
       { text: 'Veteran', value: 'TownKilling' },
