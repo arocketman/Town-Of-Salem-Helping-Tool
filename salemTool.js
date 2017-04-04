@@ -32,6 +32,7 @@ var vue = new Vue({
       { text: 'Serial Killer', value: 'NeutralKilling' },
       { text: 'Werewolf', value: 'NeutralKilling' },
       { text: 'Executioner', value: 'NeutralEvil' },
+      { text: 'Vampire', value: 'NeutralEvil' },
       { text: 'Jester', value: 'NeutralEvil' },
       { text: 'Witch', value: 'NeutralEvil' },
       { text: 'Amnesiac', value: 'NeutralBenign' },
