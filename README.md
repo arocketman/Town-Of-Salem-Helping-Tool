@@ -1,5 +1,5 @@
 # Town-Of-Salem-Helping-Tool
-This is a helping tool for town of salem, I find it particularly useful because I have two screens. It doesn't provide much, but it helps me out.
+This is a helping tool for town of salem to find player roles in a more organized fashion.
 
 You can use it here:
 
